@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="crimes reais, séries, filmes, podcasts, true crime, crimes brasileiros, serial killers brasileiros"
+    />
+    <meta
+      name="description"
+      content="Dicas de séries, filmes e podcasts sobre cimes reais. Detalhes sobre como funcionam as investigações e julgamentos."
+    />
+    <title>Portal de notícias True Crime</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .primeiro-titulo {
+        color: rgb(136, 6, 6);
+        font-style: normal;
+        font-family: impact;
+        font-size: 50px;
+        margin: 15px;
+      }
+      .primeiro-subtitulo {
+        color: rgb(41, 36, 36);
+        font-size: 20px;
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+      .titsec {
+        color: rgb(136, 6, 6);
+        font-style: normal;
+        font-family: impact;
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        margin-left: 15px;
+        font-weight: 250;
+      }
+      .titart {
+        color: rgb(136, 6, 6);
+        font-style: normal;
+        font-family: impact;
+        font-size: 25px;
+        font-weight: lighter;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+      }
+      .menu {
+        color: white;
+        font-size: 15px;
+        background-color: rgb(136, 6, 6);
+        height: 60px;
+        width: 140px;
+        border-radius: 28px;
+        border-color: rgb(136, 6, 6);
+        border-style: solid;
+        margin: 15px;
+        cursor: pointer;
+        transition: 0.15s;
+      }
+      .menu:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(136, 6, 6);
+      }
+      .ler-mais {
+        color: white;
+        font-size: 15px;
+        background-color: rgb(136, 6, 6);
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        border-color: rgb(136, 6, 6);
+        border-style: solid;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: 0.15s;
+        margin-left: 15px;
+      }
+      .ler-mais:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(136, 6, 6);
+      }
+      .descricao {
+        font-size: 18px;
+        margin-left: 15px;
+      }
+      .imagem-art {
+        max-width:500px;
+        max-height:500px;
+        width: auto;
+        height: auto;
+        margin-left: 15px;
+      }
+      .creation-date {
+        color: grey;
+        font-size: 12px;
+        margin-left: 15px;
+      }
+      .container {
+        width: 1366px;
+        margin: 0 auto;
+        display: flex;
+        background-color: rgb(238, 230, 230);
+        justify-content: space-between;
+      }
+
+      .artigos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .artigos article {
+        width: 47%;
+      }
+
+      .instagram {
+        background-color: rgb(136, 6, 6);
+        height: 62px;
+        width: 62px;
+        border-radius: 31px;
+        border-color: rgb(136, 6, 6);
+        position: fixed;
+        right: 10px;
+        bottom: 15px;
+        border-style: solid;
+        padding-right: 0;
+        padding-left: 0;
+        cursor: pointer;
+        transition: 0.15s;  
+      }
+
+      .instagram:hover {
+        background-color: rgb(0, 0, 0);
+        border-color: rgb(0, 0, 0);
+      }
+
+      #podcasts {
+        background-color: rgb(238, 230, 230);
+      }
+
+    
+      #casos-reais {
+        background-color: rgb(238, 230, 230);
+      }
+    
+
+      #series-filmes {
+        background-color: rgb(250, 240, 240);
+      }
+
+      #series-filmes .titsec {
+        color: black;
+      }
+
+      #series-filmes .ler-mais {
+        background-color: black;
+        border-color: black;
+      }
+
+      #series-filmes .ler-mais:hover {
+        background-color: rgb(250, 240, 240);
+        border-color: black;
+        color: black;
+      }
+
+      #series-filmes .titart {
+        color: black;
+      }
+    </style>
+  </head>
+
+
+  <body>
+
+    <header> 
+      <div class="container">  
+        <h1 class="primeiro-titulo">Portal de notícias True Crime</h1>
+        <button class="menu">Casos reais</button>
+        <button class="menu">Séries e filmes</button>
+        <button class="menu">Podcasts</button>
+      </div>
+    </header>
+
+      <div class="container">
+        <section id="casos-reais">
+          <h2 class="titsec">Casos reais</h2>
+          <div class="artigos">
+            <article>
+              <h3 class="titart">Edmund Kemper</h3>
+              <img class="imagem-art" src="./kemper.jpg" alt="Ed Kemper: fotos feitas na sua entrada na cadeia" />
+              </br>
+              <time class="creation-date">06/08/2022 às 18:03</time>
+              <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis perferendis quo illo. Hic, quibusdam molestias eius inventore deleniti sapiente ex, provident assumenda aliquam nemo fugit voluptatem. Repellendus atque vitae tempore dicta quidem optio voluptatum rerum. Voluptatum, omnis? Sapiente asperiores placeat fugit voluptatibus assumenda vel earum, deleniti a! Nemo provident magnam aliquam voluptatibus quos eos perferendis rerum cumque dolorem ipsa minus quisquam a doloremque est autem assumenda, numquam pariatur, temporibus quam porro ad expedita iusto ipsam. Natus vero fugiat earum esse! Itaque ipsam tempore cumque corporis facere enim quas magnam, eum porro rem labore dignissimos incidunt saepe maxime blanditiis nulla nisi. Ut itaque corporis amet molestias quos reiciendis voluptatibus hic rerum tempore autem odio, facilis, aut temporibus quam! Amet, unde velit. Dolores consequuntur obcaecati laboriosam quisquam ducimus, in natus et inventore perspiciatis veritatis, aspernatur dolor doloribus earum quaerat, fugiat eaque? Adipisci obcaecati expedita rem voluptatum illo cumque nemo assumenda et. Cumque architecto maiores illo cum dolor nihil necessitatibus aperiam, sed porro enim dolorem nulla corporis ipsam eaque praesentium voluptatum consequatur eos facere magni voluptatem animi iste pariatur quas? Aspernatur eos, corporis praesentium nemo minus quibusdam. Repellendus, provident dolorum numquam quo quod natus libero quidem sit eum perferendis maiores perspiciatis consectetur.</p>
+              </br>
+              <button class="ler-mais">Ler mais</button>
+            </article>
+            <article>
+              <h3 class="titart">Unabomber</h3>
+              <img class="imagem-art" src="./unabomber.jpg" alt="Unabomber: foto de Ted e uma das suas cartas" />
+              </br>
+              <time class="creation-date">04/08/2022 às 18:10</time>
+              <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis perferendis quo illo. Hic, quibusdam molestias eius inventore deleniti sapiente ex, provident assumenda aliquam nemo fugit voluptatem. Repellendus atque vitae tempore dicta quidem optio voluptatum rerum. Voluptatum, omnis? Sapiente asperiores placeat fugit voluptatibus assumenda vel earum, deleniti a! Nemo provident magnam aliquam voluptatibus quos eos perferendis rerum cumque dolorem ipsa minus quisquam a doloremque est autem assumenda, numquam pariatur, temporibus quam porro ad expedita iusto ipsam. Natus vero fugiat earum esse! Itaque ipsam tempore cumque corporis facere enim quas magnam, eum porro rem labore dignissimos incidunt saepe maxime blanditiis nulla nisi. Ut itaque corporis amet molestias quos reiciendis voluptatibus hic rerum tempore autem odio, facilis, aut temporibus quam! Amet, unde velit. Dolores consequuntur obcaecati laboriosam quisquam ducimus, in natus et inventore perspiciatis veritatis, aspernatur dolor doloribus earum quaerat, fugiat eaque? Adipisci obcaecati expedita rem voluptatum illo cumque nemo assumenda et. Cumque architecto maiores illo cum dolor nihil necessitatibus aperiam, sed porro enim dolorem nulla corporis ipsam eaque praesentium voluptatum consequatur eos facere magni voluptatem animi iste pariatur quas? Aspernatur eos, corporis praesentium nemo minus quibusdam. Repellendus, provident dolorum numquam quo quod natus libero quidem sit eum perferendis maiores perspiciatis consectetur.</p>
+              </br>
+              <button class="ler-mais">Ler mais</button>
+            </article>
+          </div>
+        </section>
+      </div>
+    
+    <div class="container">
+        <section id="series-filmes">
+          <h2 class="titsec">Séries e Filmes</h2>
+          <div class="artigos">
+            <article>
+              <h3 class="titart">Pacto Brutal: O Assassinato de Daniela Perez</h3>
+              <img class="imagem-art" src="./perez.jpg" alt="Foto de Daniella Perez sorrindo" />
+              </br>
+              <time class="creation-date">05/08/2022 às 11:07</time>
+              <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis perferendis quo illo. Hic, quibusdam molestias eius inventore deleniti sapiente ex, provident assumenda aliquam nemo fugit voluptatem. Repellendus atque vitae tempore dicta quidem optio voluptatum rerum. Voluptatum, omnis? Sapiente asperiores placeat fugit voluptatibus assumenda vel earum, deleniti a! Nemo provident magnam aliquam voluptatibus quos eos perferendis rerum cumque dolorem ipsa minus quisquam a doloremque est autem assumenda, numquam pariatur, temporibus quam porro ad expedita iusto ipsam. Natus vero fugiat earum esse! Itaque ipsam tempore cumque corporis facere enim quas magnam, eum porro rem labore dignissimos incidunt saepe maxime blanditiis nulla nisi. Ut itaque corporis amet molestias quos reiciendis voluptatibus hic rerum tempore autem odio, facilis, aut temporibus quam! Amet, unde velit. Dolores consequuntur obcaecati laboriosam quisquam ducimus, in natus et inventore perspiciatis veritatis, aspernatur dolor doloribus earum quaerat, fugiat eaque? Adipisci obcaecati expedita rem voluptatum illo cumque nemo assumenda et. Cumque architecto maiores illo cum dolor nihil necessitatibus aperiam, sed porro enim dolorem nulla corporis ipsam eaque praesentium voluptatum consequatur eos facere magni voluptatem animi iste pariatur quas? Aspernatur eos, corporis praesentium nemo minus quibusdam. Repellendus, provident dolorum numquam quo quod natus libero quidem sit eum perferendis maiores perspiciatis consectetur.</p>
+              </br>
+              <button class="ler-mais">Ler mais</button>
+            </article>
+            <article>
+              <h3 class="titart">Bom dia, Verônica</h3>
+              <img class="imagem-art" src="./veronica.jpg" alt="Capa Netflix da série" />
+              </br>
+              <time class="creation-date">03/08/2022 às 14:15</time>
+              <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis perferendis quo illo. Hic, quibusdam molestias eius inventore deleniti sapiente ex, provident assumenda aliquam nemo fugit voluptatem. Repellendus atque vitae tempore dicta quidem optio voluptatum rerum. Voluptatum, omnis? Sapiente asperiores placeat fugit voluptatibus assumenda vel earum, deleniti a! Nemo provident magnam aliquam voluptatibus quos eos perferendis rerum cumque dolorem ipsa minus quisquam a doloremque est autem assumenda, numquam pariatur, temporibus quam porro ad expedita iusto ipsam. Natus vero fugiat earum esse! Itaque ipsam tempore cumque corporis facere enim quas magnam, eum porro rem labore dignissimos incidunt saepe maxime blanditiis nulla nisi. Ut itaque corporis amet molestias quos reiciendis voluptatibus hic rerum tempore autem odio, facilis, aut temporibus quam! Amet, unde velit. Dolores consequuntur obcaecati laboriosam quisquam ducimus, in natus et inventore perspiciatis veritatis, aspernatur dolor doloribus earum quaerat, fugiat eaque? Adipisci obcaecati expedita rem voluptatum illo cumque nemo assumenda et. Cumque architecto maiores illo cum dolor nihil necessitatibus aperiam, sed porro enim dolorem nulla corporis ipsam eaque praesentium voluptatum consequatur eos facere magni voluptatem animi iste pariatur quas? Aspernatur eos, corporis praesentium nemo minus quibusdam. Repellendus, provident dolorum numquam quo quod natus libero quidem sit eum perferendis maiores perspiciatis consectetur.</p>
+              </br>
+              <button class="ler-mais">Ler mais</button>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="podcasts">
+          <h2 class="titsec">Poscasts</h2>
+          <div class="artigos">
+            <article>
+              <h3 class="titart">Modus Operandi: Eliza Samúdio</h3>
+              <img class="imagem-art" src="./elizamodus.png" alt="Capa do episódio, foto de Eliza" />
+              </br>
+              <time class="creation-date">06/08/2022 às 12:45</time>
+              <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis perferendis quo illo. Hic, quibusdam molestias eius inventore deleniti sapiente ex, provident assumenda aliquam nemo fugit voluptatem. Repellendus atque vitae tempore dicta quidem optio voluptatum rerum. Voluptatum, omnis? Sapiente asperiores placeat fugit voluptatibus assumenda vel earum, deleniti a! Nemo provident magnam aliquam voluptatibus quos eos perferendis rerum cumque dolorem ipsa minus quisquam a doloremque est autem assumenda, numquam pariatur, temporibus quam porro ad expedita iusto ipsam. Natus vero fugiat earum esse! Itaque ipsam tempore cumque corporis facere enim quas magnam, eum porro rem labore dignissimos incidunt saepe maxime blanditiis nulla nisi. Ut itaque corporis amet molestias quos reiciendis voluptatibus hic rerum tempore autem odio, facilis, aut temporibus quam! Amet, unde velit. Dolores consequuntur obcaecati laboriosam quisquam ducimus, in natus et inventore perspiciatis veritatis, aspernatur dolor doloribus earum quaerat, fugiat eaque? Adipisci obcaecati expedita rem voluptatum illo cumque nemo assumenda et. Cumque architecto maiores illo cum dolor nihil necessitatibus aperiam, sed porro enim dolorem nulla corporis ipsam eaque praesentium voluptatum consequatur eos facere magni voluptatem animi iste pariatur quas? Aspernatur eos, corporis praesentium nemo minus quibusdam. Repellendus, provident dolorum numquam quo quod natus libero quidem sit eum perferendis maiores perspiciatis consectetur.</p>
+              </br>
+              <button class="ler-mais">Ler mais</button>
+            </article>
+            <article>
+              <h3 class="titart">Dra. Ana Beatriz Barbosa: Podpah</h3>
+              <img class="imagem-art" src="./podpah.jpg" alt="Capa do episódio, Dra. Ana no estúdio" />
+              </br>
+              <time class="creation-date">05/08/2022 às 21:14</time>
+              <p class="descricao">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et quis perferendis quo illo. Hic, quibusdam molestias eius inventore deleniti sapiente ex, provident assumenda aliquam nemo fugit voluptatem. Repellendus atque vitae tempore dicta quidem optio voluptatum rerum. Voluptatum, omnis? Sapiente asperiores placeat fugit voluptatibus assumenda vel earum, deleniti a! Nemo provident magnam aliquam voluptatibus quos eos perferendis rerum cumque dolorem ipsa minus quisquam a doloremque est autem assumenda, numquam pariatur, temporibus quam porro ad expedita iusto ipsam. Natus vero fugiat earum esse! Itaque ipsam tempore cumque corporis facere enim quas magnam, eum porro rem labore dignissimos incidunt saepe maxime blanditiis nulla nisi. Ut itaque corporis amet molestias quos reiciendis voluptatibus hic rerum tempore autem odio, facilis, aut temporibus quam! Amet, unde velit. Dolores consequuntur obcaecati laboriosam quisquam ducimus, in natus et inventore perspiciatis veritatis, aspernatur dolor doloribus earum quaerat, fugiat eaque? Adipisci obcaecati expedita rem voluptatum illo cumque nemo assumenda et. Cumque architecto maiores illo cum dolor nihil necessitatibus aperiam, sed porro enim dolorem nulla corporis ipsam eaque praesentium voluptatum consequatur eos facere magni voluptatem animi iste pariatur quas? Aspernatur eos, corporis praesentium nemo minus quibusdam. Repellendus, provident dolorum numquam quo quod natus libero quidem sit eum perferendis maiores perspiciatis consectetur.</p>
+              </br>
+              <button class="ler-mais">Ler mais</button>
+            </article>
+          </div>
+        </section>
+      </div>
+    <div class="insta">
+      <button class="instagram" type="button" onclick="window.open('http://instagram.com','_blank')"><img src="./icon-instagram.png" alt="Logo Instagram"></button>
+    </div>
+
+  </body>
+</html>
