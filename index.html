@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
+    <title>Portal de notícias</title>
+    <style>
+    * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+    .titulo {
+        color: rgb(238, 238, 238);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 400;
+    }
+
+    header li {
+        display: inline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body > header {
+        background-color: rgb(88, 20, 151);
+        padding: 16px 0;
+        color: rgb(212, 209, 216);
+    }
+
+    section {
+        padding: 16px 0;
+    }
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .articles article {
+        width: 30%;
+    }
+
+    .imagem-art {
+        max-width:350px;
+        max-height:350px;
+        width: auto;
+        height: auto;
+        margin-left: 15px;
+    }
+
+    .creation-date {
+        color: grey;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    .container {
+        width: 1366px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section h2,
+    .articles article {
+        margin-bottom: 16px;
+    }
+
+    .articles article h3 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .articles article a {
+        background-color: rgb(88, 20, 151);
+        color: white;
+        padding: 8px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 8px;
+    }
+
+    .articles article a:hover {
+        text-decoration: underline;
+    }
+
+    header li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    header li a:hover {
+        text-decoration: underline;
+    }
+
+    .articles article p,
+    .articles article a {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .articles article h3 {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    #series {
+        background-color: rgb(141, 30, 115, 0.1);
+    }
+
+    #series .articles article a {
+        background-color: rgb(141, 30, 115, 0.8);
+    }
+
+    #musicas {
+        background-color: rgb(220, 220, 236);
+    }
+
+    #musicas .articles article a {
+        background-color: rgb(14, 14, 119);
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="titulo">Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#series" title="Ir para a seção de séries">Séries</a>
+                    </li>
+                    <li>
+                        <a href="#musicas" title="Ir para a seção de música">Música</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="series">
+        <div class="container">
+            <h2>Séries</h2>
+            <div class="articles">
+                <article>
+                    <img class="imagem-art" src="./imagens/sandman.jpg" alt="Capa Sandman Netflix">
+                    <header>
+                        <time class="creation-date">09/08/2022 às 09:27</time>
+                    </header>
+                    <h3>"Sandman", a nova série da Netflix baseada nos quadrinhos de Neil Gaiman</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit incidunt, eaque aliquid nisi a dignissimos provident dolor nam, nihil atque, excepturi necessitatibus! Quisquam vel ratione earum autem eius neque veniam! Nulla nemo dolor aspernatur quaerat est voluptas nobis iusto unde natus? Quam iure voluptatibus odit sunt praesentium tempora omnis minus nemo, temporibus beatae eos doloremque dolor quis earum animi harum deserunt impedit! Libero quam iste porro, laudantium rem sapiente saepe distinctio facilis quasi? Voluptatibus, veniam repellendus! Nisi, rem magnam totam delectus libero laborum possimus est incidunt nihil harum veritatis. Eaque, doloremque voluptatum reprehenderit in distinctio quaerat nam expedita. Dolorum, harum aut. Aut voluptates doloribus repellendus reprehenderit, aliquam, in maiores error eveniet distinctio neque reiciendis, tenetur nihil sunt ipsum inventore?</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img class="imagem-art" src="./imagens/stranger.jpg" alt="Capa da série">
+                    <header>
+                        <time class="creation-date">09/08/2022 às 09:27</time>
+                    </header>
+                    <h3>Veja as melhores teorias dos fãs para a 5ª temporada de Stranger Things</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit incidunt, eaque aliquid nisi a dignissimos provident dolor nam, nihil atque, excepturi necessitatibus! Quisquam vel ratione earum autem eius neque veniam! Nulla nemo dolor aspernatur quaerat est voluptas nobis iusto unde natus? Quam iure voluptatibus odit sunt praesentium tempora omnis minus nemo, temporibus beatae eos doloremque dolor quis earum animi harum deserunt impedit! Libero quam iste porro, laudantium rem sapiente saepe distinctio facilis quasi? Voluptatibus, veniam repellendus! Nisi, rem magnam totam delectus libero laborum possimus est incidunt nihil harum veritatis. Eaque, doloremque voluptatum reprehenderit in distinctio quaerat nam expedita. Dolorum, harum aut. Aut voluptates doloribus repellendus reprehenderit, aliquam, in maiores error eveniet distinctio neque reiciendis, tenetur nihil sunt ipsum inventore?</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img class="imagem-art" src="./imagens/office.jpg" alt="Imagem atores e cenário">
+                    <header>
+                        <time class="creation-date">09/08/2022 às 09:27</time>
+                    </header>
+                    <h3>Reveja os melhores momentos de The Office</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit incidunt, eaque aliquid nisi a dignissimos provident dolor nam, nihil atque, excepturi necessitatibus! Quisquam vel ratione earum autem eius neque veniam! Nulla nemo dolor aspernatur quaerat est voluptas nobis iusto unde natus? Quam iure voluptatibus odit sunt praesentium tempora omnis minus nemo, temporibus beatae eos doloremque dolor quis earum animi harum deserunt impedit! Libero quam iste porro, laudantium rem sapiente saepe distinctio facilis quasi? Voluptatibus, veniam repellendus! Nisi, rem magnam totam delectus libero laborum possimus est incidunt nihil harum veritatis. Eaque, doloremque voluptatum reprehenderit in distinctio quaerat nam expedita. Dolorum, harum aut. Aut voluptates doloribus repellendus reprehenderit, aliquam, in maiores error eveniet distinctio neque reiciendis, tenetur nihil sunt ipsum inventore?</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="musicas">
+        <div class="container">
+            <h2>Músicas</h2>
+            <div class="articles">
+                <article>
+                    <img class="imagem-art" src="./imagens/styles.jpg" alt="Harry Styles">
+                    <header>
+                        <time class="creation-date">09/08/2022 às 09:27</time>
+                    </header>
+                    <h3>Harry Styles está vindo ao Brasil, confira datas dos shows</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit incidunt, eaque aliquid nisi a dignissimos provident dolor nam, nihil atque, excepturi necessitatibus! Quisquam vel ratione earum autem eius neque veniam! Nulla nemo dolor aspernatur quaerat est voluptas nobis iusto unde natus? Quam iure voluptatibus odit sunt praesentium tempora omnis minus nemo, temporibus beatae eos doloremque dolor quis earum animi harum deserunt impedit! Libero quam iste porro, laudantium rem sapiente saepe distinctio facilis quasi? Voluptatibus, veniam repellendus! Nisi, rem magnam totam delectus libero laborum possimus est incidunt nihil harum veritatis. Eaque, doloremque voluptatum reprehenderit in distinctio quaerat nam expedita. Dolorum, harum aut. Aut voluptates doloribus repellendus reprehenderit, aliquam, in maiores error eveniet distinctio neque reiciendis, tenetur nihil sunt ipsum inventore?</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img class="imagem-art" src="./imagens/swift.jpg" alt="Taylor Swift">
+                    <header>
+                        <time class="creation-date">09/08/2022 às 09:27</time>
+                    </header>
+                    <h3>Entenda o motivo de a cantora estar regravando suas músicas (Taylor's Version)</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit incidunt, eaque aliquid nisi a dignissimos provident dolor nam, nihil atque, excepturi necessitatibus! Quisquam vel ratione earum autem eius neque veniam! Nulla nemo dolor aspernatur quaerat est voluptas nobis iusto unde natus? Quam iure voluptatibus odit sunt praesentium tempora omnis minus nemo, temporibus beatae eos doloremque dolor quis earum animi harum deserunt impedit! Libero quam iste porro, laudantium rem sapiente saepe distinctio facilis quasi? Voluptatibus, veniam repellendus! Nisi, rem magnam totam delectus libero laborum possimus est incidunt nihil harum veritatis. Eaque, doloremque voluptatum reprehenderit in distinctio quaerat nam expedita. Dolorum, harum aut. Aut voluptates doloribus repellendus reprehenderit, aliquam, in maiores error eveniet distinctio neque reiciendis, tenetur nihil sunt ipsum inventore?</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img class="imagem-art" src="./imagens/hozier.jpg" alt="Hozier">
+                    <header>
+                        <time class="creation-date">09/08/2022 às 09:27</time>
+                    </header>
+                    <h3>Reveja as melhores performances de Hozier</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit incidunt, eaque aliquid nisi a dignissimos provident dolor nam, nihil atque, excepturi necessitatibus! Quisquam vel ratione earum autem eius neque veniam! Nulla nemo dolor aspernatur quaerat est voluptas nobis iusto unde natus? Quam iure voluptatibus odit sunt praesentium tempora omnis minus nemo, temporibus beatae eos doloremque dolor quis earum animi harum deserunt impedit! Libero quam iste porro, laudantium rem sapiente saepe distinctio facilis quasi? Voluptatibus, veniam repellendus! Nisi, rem magnam totam delectus libero laborum possimus est incidunt nihil harum veritatis. Eaque, doloremque voluptatum reprehenderit in distinctio quaerat nam expedita. Dolorum, harum aut. Aut voluptates doloribus repellendus reprehenderit, aliquam, in maiores error eveniet distinctio neque reiciendis, tenetur nihil sunt ipsum inventore?</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
