@@ -1,0 +1,101 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+        display: flex;
+        justify-content: center;
+        background-color: #5a4a71;
+        padding: 20px;
+        color: #fff;
+}
+
+h1, p {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 35px;
+}
+
+header button {
+        width: 200px;
+        background-color: #e7e7e7;
+        color: #5a4a71;
+        font-size: 20px;
+        font-weight: bold;
+        border:#e7e7e7;
+        border-style: solid;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 30px;
+        transition: 0.15s;
+        margin-left: 50px;
+}
+
+header button:hover {
+        background-color: #5a4a71;
+        color: #e7e7e7;
+}
+
+.container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+}
+
+form {
+        width: 600px;
+        display: none;
+}
+
+form input {
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+        width: 80%;
+}
+
+p {
+        font-size: 20px;
+        font-weight: bold;
+}
+
+form button {
+        width: 200px;
+        background-color: #5a4a71;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        border:#5a4a71;
+        border-style: solid;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 30px;
+        transition: 0.15s;
+}
+
+form button:hover {
+        color: #5a4a71;
+        background-color: #fff;
+}
+
+#botao-cancelar {
+        width: 200px;
+        background-color: #2f2d31;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        border:#2f2d31;
+        border-style: solid;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 30px;
+        transition: 0.15s;
+}
+
+#botao-cancelar:hover {
+        color: #2f2d31;
+        background-color: #fff;
+}

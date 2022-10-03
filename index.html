@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <h1>Receba a nossa revista na sua casa</h1>
+      <button>Eu quero!</button>
+    </header>
+    <div class="container">
+      <form>
+        <p>Informações pessoais:</p>
+        <input type="text" name="nome" placeholder="Nome Completo" />
+        <input
+          type="text"
+          name="cpf"
+          id="campo-cpf"
+          required
+          placeholder="Seu CPF"
+        />
+        <p>Contato:</p>
+        <input type="email" name="email" placeholder="Seu melhor e-mail" />
+        <input
+          id="telefone"
+          name="telefone"
+          type="tel"
+          placeholder="Telefone + DDD"
+        />
+        <p>Endereço de envio:</p>
+        <input
+          type="text"
+          name="cep"
+          id="campo-cep"
+          required
+          placeholder="Seu CEP"
+        />
+        <input type="text" name="endereço" placeholder="Endereço completo" />
+        <button id="botao-cadastro" type="submit">Cadastrar</button>
+        <button id="botao-cancelar" type="reset">Cancelar</button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+  </body>
+</html>
